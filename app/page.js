@@ -1,5 +1,10 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
-  return <main>Happy Friday v5</main>;
+  return (
+    <>
+      <main>page1</main>
+      <Link href="/week2">Link to Week2</Link>
+    </>
+  );
 }
